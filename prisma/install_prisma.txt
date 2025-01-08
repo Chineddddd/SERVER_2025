@@ -1,0 +1,9 @@
+npm install prisma
+npx prisma init
+npm install @prisma/client
+// Doc ใช้ในการสร้างและอัพเดตฐานข้อมูล
+npx prisma migrate dev --name workshop1_init
+
+//
+อัพเดต Prisma schema
+npx prisma migrate dev
